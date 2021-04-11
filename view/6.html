@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <title>WEB2 - JS</title>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Jua&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../Style/question_style.css">
+    <script src="../pagelink.js"> </script>
+  </head>
+  <body onload="noBack();" onpageshow="if(event.persisted) noBack();" onunload="">
+      <div class="content_wrapper">
+        <div class="content">
+            <div class="question">
+              <h2>Question 7</h2>
+              <h4>집에 들어오니 긴장이 풀려 잠이 쏟아진다. </h4>
+            </div>
+            <div class="images">
+              <img src="../img/yohan2.jpg">
+            </div>
+            <div class="answers">
+              <div><input class="button" type="button" value="에이~ 솔직히 하루쯤 안씻어도 괜찮다. 🤫" onclick="BtnClick('result.html'),mbtiCheck(['n','p']);"></input></div>
+              <div><input class="button" type="button" value="찝찝하니 샤워는 해야한다. 🧼" onclick="BtnClick('result.html'),mbtiCheck(['n','j']);"></input></div>
+              <div><input class="button" type="button" value="씻고 밀린 빨래를 한 뒤, 내일 입을 옷도 정하고 잔다. 😎" onclick="BtnClick('result.html'),mbtiCheck(['s','j']);"></input></div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

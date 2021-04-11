@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+  <head>
+    <title>WEB2 - JS</title>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Jua&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../Style/result_style.css">
+    <script src="../pagelink.js"> </script>
+  </head>
+  <body onload="noBack();" onpageshow="if(event.persisted) noBack();" onunload="">
+      <div class="content_wrapper">
+        <div class="content">
+            <div class="question">
+              <h3>당신의 MBTI는</h3>
+            </div>
+            <div class="images">
+              <img src="../img/yohan3.jpg">
+            </div>
+            <div class="description">
+              <div></div>
+            </div>
+            <div class="replay">
+              <div><input class="button" type="button" value="다시하기" onclick="BtnClick('main.html')"></input></div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script>
+  var target = document.querySelector(".description");
+  target.innerHTML="🖤 "+resultShow()+" 🖤 입니다~!<br />";
+
+</script>
