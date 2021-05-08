@@ -11,7 +11,7 @@ body{
   background-color: antiquewhite;
   background-image: url('../img/pattern.png');
   background-repeat:repeat;
-  background-size: 800px;
+  background-size: 1000px;
 }
 
 .content_wrapper{
@@ -41,9 +41,9 @@ body{
 
 
 .images{
-  width: 400px;
+  width: 100%;
   height:400px;
-  background-image: url('../img/background.png');
+  background-image: url('../img/mainlogo.png');
   background-repeat:no-repeat;
   background-size: contain;
   display:flex;
