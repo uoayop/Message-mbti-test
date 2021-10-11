@@ -1,0 +1,29 @@
+{
+  "name": "mbti-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pagelink.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uoayop/Message-mbti-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uoayop/Message-mbti-test/issues"
+  },
+  "homepage": "https://github.com/uoayop/Message-mbti-test#readme",
+  "devDependencies": {
+    "css-loader": "^6.3.0",
+    "file-loader": "^6.2.0",
+    "style-loader": "^3.3.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.58.1",
+    "webpack-cli": "^4.9.0"
+  },
+  "dependencies": {}
+}
